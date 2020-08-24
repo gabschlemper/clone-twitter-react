@@ -28,6 +28,7 @@ export const Banner = styled.div`
 export const Avatar = styled.div`
   width: max(45px, min(135px, 22vw));
   height: max(45px, min(135px, 22vw));
+  overflow: hidden;
 
   border: 3.75px solid var(--primary);
   background: var(--gray);
@@ -36,6 +37,11 @@ export const Avatar = styled.div`
   position: absolute;
   bottom: max(-60px, -10vw);
   left: 15px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 export const ProfileData = styled.div`
   padding: min(calc(10vw + 7px), 67px) 16px 0;

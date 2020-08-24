@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { Chat, Rocketseat, Favorite } from '../../styles/Icons';
+import { Chat, Twitter, Favorite } from '../../styles/Icons';
 
 export const Container = styled.div`
   display: flex;
@@ -20,7 +20,7 @@ export const Retweeted = styled.div`
   color: var(--gray);
 `;
 
-export const RocketseatIcon = styled(Rocketseat)`
+export const Icon = styled(Twitter)`
   width: 16px;
   height: 16px;
 
@@ -40,15 +40,17 @@ export const Body = styled.div`
 `;
 
 export const Avatar = styled.div`
-  width: 49px;
-  height: 49px;
-  border-radius: 50%;
+  overflow: hidden;
   flex-shrink: 0;
-  background: var(--gray);
 
   position: absolute;
   top: 0;
   left: 0;
+  img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%; 
+  }
 `;
 
 export const Content = styled.div`
@@ -164,7 +166,7 @@ const iconCSS = css`
 export const CommentIcon = styled(Chat)`
   ${iconCSS}
 `;
-export const RetweetIcon = styled(Rocketseat)`
+export const RetweetIcon = styled(Twitter)`
   ${iconCSS}
 `;
 export const LikeIcon = styled(Favorite)`

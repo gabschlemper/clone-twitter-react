@@ -17,11 +17,13 @@ function ProfilePage() {
   return (
     <Container>
       <Banner>
-        <Avatar />
+        <Avatar>
+          <img src="https://pbs.twimg.com/profile_images/1297574825129586690/9tFEIahx_400x400.jpg"></img>
+        </Avatar>
       </Banner>
 
       <ProfileData>
-        <EditButton outline>Editar Perfil</EditButton>
+        <EditButton outline>Edit profile</EditButton>
         <h1>Gabriela Schlemper</h1>
         <h2>@gabschlemper</h2>
 
@@ -36,16 +38,16 @@ function ProfilePage() {
           </li>
           <li>
             <CakeIcon/>
-            Nascido em 24 mar de 2000
+            March 24, 2000
           </li>
         </ul>
 
         <Followage>
           <span>
-            Seguindo <strong>74</strong>
+          Following <strong>74</strong>
           </span>
           <span>
-            <strong>285 </strong> seguidores
+            <strong>285 </strong> Followers
           </span>
         </Followage>
       </ProfileData>

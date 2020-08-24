@@ -3,7 +3,7 @@ import React from 'react';
 import { 
   Container,
   Retweeted,
-  RocketseatIcon,
+  Icon,
   Body,
   Avatar,
   Content, 
@@ -22,22 +22,24 @@ function Tweet() {
   return (
     <Container>
       <Retweeted>
-        <RocketseatIcon />
+        <Icon />
         Você retweeted
       </Retweeted>
 
       <Body>
-        <Avatar />
+        <Avatar>
+          <img src='https://pbs.twimg.com/profile_images/1157035760085684224/iuxTnT5g_400x400.jpg'></img>
+        </Avatar>
 
         <Content>
           <Header>
-            <strong>Rocketseat</strong>
-            <span>@rocketseat</span>
+            <strong>GitHub</strong>
+            <span>@github</span>
             <Dot />
-            <time>21 de agosto</time>
+            <time>Aug 21</time>
           </Header>
 
-          <Description>Foguete não tem ré</Description>
+          <Description>Contagem regressiva para o primeiro GitHub ¡Presente! Em uma semana vamos reunir Hubbers brasileiros, falar sobre os projetos futuros do GitHub e conversar com desenvolvedores da comunidade brasileira. Faça parte do nosso Meetup! http://github.co/Presente</Description>
 
           <ImageContent />
 
@@ -52,7 +54,7 @@ function Tweet() {
             </Status>
             <Status>
               <LikeIcon />
-              975
+              63
             </Status>
           </Icons>
 

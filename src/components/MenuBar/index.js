@@ -26,36 +26,38 @@ function MenuBar() {
 
         <MenuButton>
           <HomeIcon />
-          <span>Página Inicial</span>
+          <span>Home</span>
         </MenuButton>
 
         <MenuButton>
           <BellIcon />
-          <span>Notificações</span>
+          <span>Notifications</span>
         </MenuButton>
         
         <MenuButton>
           <EmailIcon />
-          <span>Mensagens</span>
+          <span>Messages</span>
         </MenuButton>
         
         <MenuButton>
           <FavoriteIcon />
-          <span>Favoritados</span>
+          <span>Favorites</span>
         </MenuButton>
         
         <MenuButton>
           <ProfileIcon className="active"/>
-          <span>Perfil</span>
+          <span>Profile</span>
         </MenuButton>
 
         <Button>
-          <span>Tweetar</span>
+          <span>Tweet</span>
         </Button>
       </Topside>
 
       <Botside>
-        <Avatar />
+        <Avatar>
+          <img src="https://pbs.twimg.com/profile_images/1297574825129586690/9tFEIahx_400x400.jpg"></img>
+        </Avatar>
 
         <ProfileData>
           <strong>Gabriela Schlemper</strong>

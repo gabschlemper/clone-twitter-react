@@ -7,7 +7,7 @@ import {
   FavoriteBorder,
   Person,
   ExitToApp,
-  Rocketseat
+  Twitter
 } from '../../styles/Icons'
 
 export const Container = styled.div`
@@ -37,7 +37,7 @@ export const Topside = styled.div`
     align-items: flex-start;
   }
 `;
-export const Logo = styled(Rocketseat)`
+export const Logo = styled(Twitter)`
   width: 41px;
   height: 41px;
 
@@ -142,11 +142,17 @@ export const Botside = styled.div`
 export const Avatar = styled.div`
   width: 29px;
   height: 29px;
+  overflow: hidden;
   
   flex-shrink: 0;
 
   border-radius: 50%;
   background: var(--gray);
+
+  > img {
+    width: 100%;
+    height: 100%;
+  }
 
 `;
 export const ProfileData = styled.div`
