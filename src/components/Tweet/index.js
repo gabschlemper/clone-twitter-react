@@ -28,7 +28,7 @@ function Tweet() {
 
       <Body>
         <Avatar>
-          <img src='https://pbs.twimg.com/profile_images/1157035760085684224/iuxTnT5g_400x400.jpg'></img>
+          <img alt="" src='https://pbs.twimg.com/profile_images/1157035760085684224/iuxTnT5g_400x400.jpg'></img>
         </Avatar>
 
         <Content>
@@ -39,7 +39,7 @@ function Tweet() {
             <time>Aug 21</time>
           </Header>
 
-          <Description>Contagem regressiva para o primeiro GitHub ¡Presente! Em uma semana vamos reunir Hubbers brasileiros, falar sobre os projetos futuros do GitHub e conversar com desenvolvedores da comunidade brasileira. Faça parte do nosso Meetup! http://github.co/Presente</Description>
+          <Description>Have you built your GitHub Profile README yet? Check out this video on how to build your profile, share with us, and get some inspiration from other great profiles. What will you showcase?</Description>
 
           <ImageContent />
 

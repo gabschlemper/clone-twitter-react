@@ -18,7 +18,7 @@ function ProfilePage() {
     <Container>
       <Banner>
         <Avatar>
-          <img src="https://pbs.twimg.com/profile_images/1297574825129586690/9tFEIahx_400x400.jpg"></img>
+          <img alt="" src="https://pbs.twimg.com/profile_images/1297574825129586690/9tFEIahx_400x400.jpg"></img>
         </Avatar>
       </Banner>
 
@@ -28,7 +28,7 @@ function ProfilePage() {
         <h2>@gabschlemper</h2>
 
         <p>
-          Front-end 
+          Front-end Junior
         </p>
 
         <ul>

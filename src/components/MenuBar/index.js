@@ -56,7 +56,7 @@ function MenuBar() {
 
       <Botside>
         <Avatar>
-          <img src="https://pbs.twimg.com/profile_images/1297574825129586690/9tFEIahx_400x400.jpg"></img>
+          <img alt="" src="https://pbs.twimg.com/profile_images/1297574825129586690/9tFEIahx_400x400.jpg"></img>
         </Avatar>
 
         <ProfileData>
