@@ -1,5 +1,5 @@
 # Twitter Clone
-Esse projeto é um clone do twitter usando React e Styled Components, com bastante foco no layout responsivo.
+This project is a Twitter clone using React and Styled Component focusing on responsive layout.
 
 # Live [Demo](https://clone-twitter-react.netlify.app/)
 
